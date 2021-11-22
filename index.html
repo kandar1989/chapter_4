@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>Game Suit</title>
+<meta name="description" content="Game Suit Sederhana Kertas Gunting Batu">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Permainan Gunting Batu Kertas</h1>
+  <div class="tengah">
+
+    <h3>Selamat Datang, anda akan bermain dengan computer beradu Kertas, Gunting, Batu</h3>
+    <button id="restart" class="restart" ><img = src="./assets/assets/refresh.png" title="Restart" width="30"></button>
+    <br>   
+    <div class="player" id="player">
+      <h2>Silahkan Pilih :</h2>
+      <ul>
+        <li href="#" onclick="fungsiku('batu')"><img class="img6"  id="batu" title="Batu" src="./assets/assets/batu.png" width="60"></li>
+        <br>
+        <li href="#" onclick="fungsiku('gunting')"><img class="img6" id="gunting"  title="Gunting" src="./assets/assets/gunting.png" width="60"></li>
+        <br>
+        <li href="#" onclick="fungsiku('kertas')"><img  class="img6"  id="kertas" title="Kertas" src="./assets/assets/kertas.png" width="60"></li>
+      </ul>
+    </div>
+    <div class="versus">
+    <img src="./assets/assets/Versus.png" class="versus" width="94"></a>
+  </div>
+    
+    <div class="comp">
+      <h2>Computer</h2>
+      <Ul>
+        <li href="#"><img class="img6" id="rock" title="Batu" src="./assets/assets/batu.png" width="60" ></li>
+        <br>  
+        <li href="#"><img class="img6" id="scissors" title="Gunting" src="./assets/assets/gunting.png" width="60"></li>
+        <br>
+        <li href="#" ><img id="paper" class="img6" title="Kertas" src="./assets/assets/kertas.png" width="60"></li>
+      </Ul>
+       
+    
+
+    </div>
+    <div id="hilang">
+      <h2 id="hasil" ></h2>
+      <p style="font-size: 20px">Anda Memilih <span id="user1"></span> , Komputer Memilih <span id="comp"></span>
+    </div>
+    
+  
+
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
